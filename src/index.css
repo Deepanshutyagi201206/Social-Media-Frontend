@@ -1,0 +1,18 @@
+:root {
+  --color-1: gray;
+
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+
+  --line-height-20: 20px;
+  --line-height-22: 22px;
+  --line-height-24: 24px;
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

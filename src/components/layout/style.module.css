@@ -1,0 +1,4 @@
+.bodySection{
+    display: grid;
+    grid-template-columns: max-content auto;
+}

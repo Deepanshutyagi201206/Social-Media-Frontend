@@ -1,7 +1,13 @@
-const Home = () => {
-    return (
-        <div>Home</div>
-    )
-}
+import { ChatSection, PostsSection } from "./components";
+import styles from "./style.module.css";
 
-export default Home
+const Home = () => {
+  return (
+    <div className={styles.bodySection}>
+      <PostsSection />
+      <ChatSection />
+    </div>
+  );
+};
+
+export default Home;

@@ -1,0 +1,9 @@
+.contentContainer *{
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-22);
+}
+.buttonsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
