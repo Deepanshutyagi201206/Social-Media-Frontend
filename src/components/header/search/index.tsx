@@ -4,7 +4,7 @@ import styles from "./style.module.css";
 const Search = () => {
   return (
     <div className={styles.searchContainer}>
-      <input placeholder="Search anything" className={styles.search} />
+      <input className={styles.search} placeholder="Search anything" />
       <button className={styles.searchIcon}>
         <FiSearch />
       </button>
