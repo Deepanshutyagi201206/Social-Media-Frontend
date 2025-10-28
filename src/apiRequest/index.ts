@@ -1,3 +1,4 @@
 import postRequest from "./postRequest";
+import getRequest from "./getRequest";
 
-export {postRequest}
+export { postRequest, getRequest };
